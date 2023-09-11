@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap');
+ 
+@import "statics";
+@import "animations.scss" ;
+@import "home.scss" ;
+@import "work.scss" ; 
+@import "timeline.scss" ; 
+@import "services.scss" ; 
+@import "testimonial.scss" ; 
+@import "contact.scss" ; 
+@import "footer.scss" ; 
+@import "mediaquery.scss" ; 
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:$text1 ;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: $color1;
+    overflow-x: hidden;
+}
+.disabledBtn{
+    color: $color6 !important;
+    background-color: rgb(237 , 237 , 237) !important;
+    cursor: not-allowed !important;
+}
